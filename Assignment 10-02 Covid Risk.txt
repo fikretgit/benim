@@ -8,3 +8,4 @@ if (c_addict == "yes" or chronic == "yes" or immune == "yes"):
 else:
     print("You are not in risky group")
 
+sabah oluşturdum
