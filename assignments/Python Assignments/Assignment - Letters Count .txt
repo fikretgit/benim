@@ -1,0 +1,10 @@
+
+sent = input("write a sentence please: ")
+def dic_count(sent):
+    dict = {}
+    for i in sent:
+        if i not in dict:
+            dict[i] = sent.count(i)
+    return dict
+
+print(dic_count(sent), end="")
