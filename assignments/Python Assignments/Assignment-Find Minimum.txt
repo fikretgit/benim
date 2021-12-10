@@ -1,0 +1,6 @@
+
+def my_min(*n):
+    for i in n:
+        return sorted(n)[0]
+
+my_min(*n)
